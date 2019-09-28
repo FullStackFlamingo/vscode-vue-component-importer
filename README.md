@@ -14,7 +14,7 @@ Via:
 
 ### Before
 
-(cursor on `MyComponent` tag)
+(place cursor on `MyComponent` tag)
 
 ```html
 <template>
@@ -25,13 +25,13 @@ Via:
 </script>
 ```
 
-`keybinding (default ctrl/cmd+i)`
+Press keybinding `(default ctrl/cmd+i)` or Command Pallete `Vue: Import vue component at cursor`
 
 ### After
 
 ```html
 <template>
-  <MyComponent [cursor position on `MyComponent`] />
+  <MyComponent />
 </template>
 <script>
   import MyComponent from '../../../MyComponent.vue';
