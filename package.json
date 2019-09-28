@@ -1,0 +1,75 @@
+{
+  "name": "vscode-vue-component-importer",
+  "displayName": "Vue Component Importer",
+  "description": "Import vue components into a single file component by referencing the <template> block.",
+  "version": "0.0.1",
+  "author": "",
+  "icon": "asset/icon.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FullStackFlamingo/vscode-vue-component-importer.git"
+  },
+  "keywords": [
+    "Vue",
+    "vue",
+    "vuejs"
+  ],
+  "engines": {
+    "vscode": "^1.38.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:vue-component-importer.importFromCursor"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "keybindings": [
+      {
+        "command": "vue-component-importer.importFromCursor",
+        "key": "ctrl+i",
+        "mac": "cmd+i",
+        "when": "editorTextFocus && !editorReadOnly"
+      }
+    ],
+    "commands": [
+      {
+        "command": "vue-component-importer.importFromCursor",
+        "title": "Vue: Import vue component at cursor"
+      }
+    ],
+    "configuration": {
+      "title": "Vue Component Importer",
+      "properties": {
+        "vue-component-importer.enableDebugMessages": {
+          "type": "boolean",
+          "default": false,
+          "description": "Show messages"
+        }
+      }
+    }
+  },
+  "scripts": {},
+  "devDependencies": {
+    "@types/glob": "^7.1.1",
+    "@types/node": "^10.12.21",
+    "@types/vscode": "^1.38.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "glob": "^7.1.4",
+    "prettier": "^1.18.2",
+    "typescript": "^3.3.1",
+    "vscode-test": "^1.2.0"
+  },
+  "dependencies": {
+    "change-case": "^3.1.0"
+  }
+}
