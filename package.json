@@ -21,10 +21,14 @@
   "categories": [
     "Other"
   ],
+  "scripts": {
+    "vscode:prepublish": "webpack --mode production",
+    "webpack": "webpack --mode production"
+  },
+  "main": "./dist/extension.js",
   "activationEvents": [
     "onCommand:vue-component-importer.importFromCursor"
   ],
-  "main": "./extension.js",
   "contributes": {
     "keybindings": [
       {
@@ -51,7 +55,6 @@
       }
     }
   },
-  "scripts": {},
   "devDependencies": {
     "@types/glob": "^7.1.1",
     "@types/node": "^10.12.21",
@@ -66,8 +69,9 @@
     "eslint-plugin-react-hooks": "^1.7.0",
     "glob": "^7.1.4",
     "prettier": "^1.18.2",
-    "typescript": "^3.3.1",
-    "vscode-test": "^1.2.0"
+    "vscode-test": "^1.2.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
   },
   "dependencies": {
     "change-case": "^3.1.0"
