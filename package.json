@@ -4,7 +4,7 @@
   "description": "Import vue components into a single file component by referencing the <template> block.",
   "version": "0.0.1",
   "author": "FullStackFlamingo (https://github.com/FullStackFlamingo/vscode-vue-component-importer)",
-  "icon": "asset/icon.png",
+  "icon": "asset/icondown.png",
   "license": "MIT",
   "repository": {
     "type": "git",
