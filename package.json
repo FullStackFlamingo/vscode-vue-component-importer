@@ -31,12 +31,12 @@
   },
   "main": "./dist/extension.js",
   "activationEvents": [
-    "onCommand:vue-component-importer.importFromCursor"
+    "onCommand:extension.vue-component-importer.importFromCursor"
   ],
   "contributes": {
     "keybindings": [
       {
-        "command": "vue-component-importer.importFromCursor",
+        "command": "extension.vue-component-importer.importFromCursor",
         "key": "ctrl+i",
         "mac": "cmd+i",
         "when": "editorTextFocus && !editorReadOnly"
@@ -44,7 +44,7 @@
     ],
     "commands": [
       {
-        "command": "vue-component-importer.importFromCursor",
+        "command": "extension.vue-component-importer.importFromCursor",
         "title": "Vue: Import vue component at cursor"
       }
     ],

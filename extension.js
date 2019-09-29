@@ -7,7 +7,7 @@ const showMessage = require('./lib/showMessage');
 
 function activate(context) {
   const disposable = vscode.commands.registerCommand(
-    'vue-component-importer.importFromCursor',
+    'extension.vue-component-importer.importFromCursor',
     async () => {
       try {
         const editor = vscode.window.activeTextEditor;
