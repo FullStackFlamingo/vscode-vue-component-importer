@@ -2,7 +2,7 @@
   "name": "vscode-vue-component-importer",
   "displayName": "Vue Component Importer",
   "description": "Import vue components into a single file component by referencing the <template> block.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "FullStackFlamingo",
   "publisher": "FullStackFlamingo",
   "icon": "asset/icondown.png",
