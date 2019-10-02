@@ -37,7 +37,7 @@ Press keybinding `(default ctrl/cmd+i)` or Command Pallete `Vue: Import vue comp
   import MyComponent from '../../../MyComponent.vue';
   export default {
     components: {
-      EbPopper,
+      MyComponent,
     },
   };
 </script>
