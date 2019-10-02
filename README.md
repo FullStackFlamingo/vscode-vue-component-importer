@@ -25,7 +25,7 @@ Via:
 </script>
 ```
 
-Press keybinding `(default ctrl/cmd+i)` or Command Pallete `Vue: Import vue component at cursor`
+Press keybinding `(default: ctrl+i / MacOS = cmd+i)` or Command Pallete `Vue: Import vue component at cursor`
 
 ### After
 
@@ -49,7 +49,7 @@ Press keybinding `(default ctrl/cmd+i)` or Command Pallete `Vue: Import vue comp
 
 ## Extension Keybinding
 
-- `CtrlCmd+i`: Trigger cursor position import
+- `Ctrl+i (MacOS = Cmd+i)`: Trigger cursor position import
 
 ## Extension Command Pallete
 
