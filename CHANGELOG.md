@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.4] - 2019-10-02
+
+- fix: insert import statement after an existing import statement if possible
+
 ## [0.0.3] - 2019-10-01
 
 - fix: More robust document statement insertion
