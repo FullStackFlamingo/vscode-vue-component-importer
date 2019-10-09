@@ -28,7 +28,8 @@
   ],
   "scripts": {
     "vscode:prepublish": "webpack --mode production",
-    "webpack": "webpack --mode production"
+    "webpack": "webpack --mode production",
+    "test": "jest"
   },
   "main": "./dist/extension.js",
   "activationEvents": [
@@ -61,9 +62,12 @@
     }
   },
   "devDependencies": {
+    "@babel/core": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
     "@types/glob": "^7.1.1",
     "@types/node": "^10.12.21",
     "@types/vscode": "^1.38.0",
+    "babel-jest": "^24.9.0",
     "eslint": "^6.5.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
@@ -74,6 +78,7 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "glob": "^7.1.4",
+    "jest": "^24.9.0",
     "prettier": "^1.18.2",
     "vscode-test": "^1.2.0",
     "webpack": "^4.41.0",
