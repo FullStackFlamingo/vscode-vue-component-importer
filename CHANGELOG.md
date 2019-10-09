@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.5] - 2019-10-09
+
+- fix: restrict alterations to `<script>` block in single file component (ignoring css imports, https://github.com/FullStackFlamingo/vscode-vue-component-importer/issues/2 )
+
 ## [0.0.4] - 2019-10-02
 
 - fix: insert import statement after an existing import statement if possible
