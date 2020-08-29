@@ -1,20 +1,18 @@
 # VS Code extension - [Vue Component Importer extension ](https://marketplace.visualstudio.com/items?itemName=FullStackFlamingo.vscode-vue-component-importer)
 
-<p >
+<p>
   <a href="https://marketplace.visualstudio.com/items?itemName=FullStackFlamingo.vscode-vue-component-importer">
     <img src="https://vsmarketplacebadge.apphb.com/version-short/FullStackFlamingo.vscode-vue-component-importer.svg?style=flat-square">
   </a>
 </p>
 
-Adds `import` statement and `component` property to current .vue single file component file.
+Adds `import` statement and `component` property to current .vue single file component file. Imports `kebab-case.vue` or `PascalCase.vue`.
 
 Via:
 
 1. Placing your cursor on the component tag inside `<template />` section and triggering keybind/command pallete.
 2. (TODO) specifying component name in command pallete.
 3. (TODO) import all components in file in one go.
-
-> ! TODO: Currently assumes filename of component is `PascalCase.vue` and imports as `PascalCase.vue`. Future release will find `kebab-case.vue` or `PascalCase.vue` file.
 
 ## Example
 

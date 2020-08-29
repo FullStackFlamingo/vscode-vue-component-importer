@@ -23,7 +23,7 @@ function activate(context) {
         'vscode.executeFormatDocumentProvider',
         editor.document.uri.path
       ); */
-    }
+    },
   );
 
   context.subscriptions.push(disposable);
