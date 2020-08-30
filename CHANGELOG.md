@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.1.0] - 2020-08-30
+
+- feat: import kebab-case files, in addition to pascal.
+
 ## [0.0.5] - 2019-10-09
 
 - fix: restrict alterations to `<script>` block in single file component (ignoring css imports, https://github.com/FullStackFlamingo/vscode-vue-component-importer/issues/2 )
