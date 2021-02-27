@@ -1,4 +1,21 @@
-# VS Code extension - [Vue Component Importer extension ](https://marketplace.visualstudio.com/items?itemName=FullStackFlamingo.vscode-vue-component-importer)
+# Vue Component Importer (deprecated)
+
+
+**⚠️ Note**: This extension has been deprecated in favor of using [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) which now has  `Auto import component` on type-ahead since version [0.30.0](https://github.com/vuejs/vetur/releases/tag/v0.30.0).
+
+Be sure to enable this on your `settings.json` to match the casing of your file:
+```json
+{
+...,
+"vetur.completion.tagCasing": "initial"
+}
+```
+
+
+
+---------
+
+
 
 <p>
   <a href="https://marketplace.visualstudio.com/items?itemName=FullStackFlamingo.vscode-vue-component-importer">

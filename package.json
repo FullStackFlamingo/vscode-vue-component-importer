@@ -1,6 +1,6 @@
 {
   "name": "vscode-vue-component-importer",
-  "displayName": "Vue Component Importer",
+  "displayName": "Vue Component Importer (deprecated)",
   "description": "Import vue components into a single file component by referencing the <template> block.",
   "version": "0.1.0",
   "author": "FullStackFlamingo",

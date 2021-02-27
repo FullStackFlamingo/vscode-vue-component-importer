@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.1.1] - 2021-02-27
+
+- DEPRECATED: Use Vetur for Auto Importing
+
 ## [0.1.0] - 2020-08-30
 
 - feat: import kebab-case files, in addition to pascal.
